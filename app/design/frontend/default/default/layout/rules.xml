@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <catalog_product_view translate="label">
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><file>css/available.css</file></action>
+        </reference>
+        <reference name="right">
+            <block type="rules/rules" name="rules" template="rules/rules.phtml" />
+        </reference>
+    </catalog_product_view>
+</layout> 
