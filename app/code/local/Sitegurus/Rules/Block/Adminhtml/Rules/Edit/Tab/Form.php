@@ -15,7 +15,8 @@ class Sitegurus_Rules_Block_Adminhtml_Rules_Edit_Tab_Form extends Mage_Adminhtml
           'required'  => true,
           'name'      => 'title',
       ));
-   //DebugBreak();
+
+   //$cats=Mage::getModel('catalog/category')->load(2)->getChildren();
    $root_cat = Mage::app()->getWebsite(true)->getDefaultStore()->getRootCategoryId();
    $cats=Mage::getModel('catalog/category')->load($root_cat)->getChildren();
    $catIds=explode(',',$cats);

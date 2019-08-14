@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "This extension allows admin to add Shipping, Payment & Return Methods for particular Category Products for user information",
+    "description": "This extension allows admin to add Shipping, Payment Return Methods for particular Category Products for user information",
     "authors": [
     {
         "name": "Manthan",
