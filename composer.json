@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Service_Checker",
+    "name": "OpenMageModuleFostering\/Service_Checker",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "This extension allows admin to add Shipping, Payment Return Methods for particular Category Products for user information",
     "authors": [
-    {
-        "name": "Manthan",
-        "email": "manthan18121989@gmail.com"
-    }
-],
+        {
+            "name": "Manthan",
+            "email": "manthan18121989@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
